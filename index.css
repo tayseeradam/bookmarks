@@ -1,9 +1,9 @@
-/* styles.css */
+
 *{
     margin: 0;
     padding: 0;
-}
 
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -17,7 +17,6 @@ h2{
 }
 
 i{
-
     color: blue;
 
 }
@@ -37,7 +36,7 @@ main div{
 input{
     background-color:rgb(234, 251, 253);
     width: 31%;
-    padding: 12.5px;
+    padding: 12px;
     position: relative;
     border-radius: 7px;
     border: 3px solid white;
@@ -49,7 +48,7 @@ button{
 
     width: 22%;
     background-color: blue;
-    padding: 12.5px;
+    padding: 12px;
     border-radius: 7px;
     border: none;
     margin: 10px auto;
@@ -58,10 +57,46 @@ button{
     color: #fff;
 }
 
-/* 
-.bookmark-card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 5px;
 
-} */
+/* section element */
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    width: 60%;
+    margin: 3% auto;
+}
+
+
+.container{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #ccc;
+    
+}
+.container h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 46, 46);
+
+}
+.container div{
+    width: 100%;
+}
+.container div button{
+    width: 45%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(3, 107, 3);
+}
+.container div button i{
+color: white;
+}
+
+.container div button:last-child{
+
+    background-color: rgb(141, 3, 3);
+}
