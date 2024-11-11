@@ -1,0 +1,67 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2{
+    width: 90%;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+i{
+
+    color: blue;
+
+}
+main{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border:  none ;
+    box-shadow: 1px 1px 2px 1px #ccc;
+}
+main div{
+    width: 100%;
+    margin: 0 10px 0 10px ;
+   
+}
+input{
+    background-color:rgb(234, 251, 253);
+    width: 31%;
+    padding: 12.5px;
+    position: relative;
+    border-radius: 7px;
+    border: 3px solid white;
+    outline-color: #ebeaea;
+    border: none;
+    margin-left: 2%;
+}
+button{
+
+    width: 22%;
+    background-color: blue;
+    padding: 12.5px;
+    border-radius: 7px;
+    border: none;
+    margin: 10px auto;
+    position: relative;
+    margin-left: 2%;
+    color: #fff;
+}
+
+/* 
+.bookmark-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+
+} */
