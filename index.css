@@ -58,7 +58,7 @@ button{
 }
 
 
-/* section element */
+
 section{
     display: grid;
     grid-template-columns: auto auto auto;
